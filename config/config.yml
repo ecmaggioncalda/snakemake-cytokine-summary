@@ -1,0 +1,46 @@
+patient_metadata: data/patient_metadata.csv
+# core: data/combined_core.tsv
+# pan: data/pan_geno.tsv
+# gene_key: data/grouped_core_gene_key.tsv
+tree: data/cytokine_rooted_tree.tree
+# ml_methods:
+#  - glmnet
+#  - rf
+#  - svmRadial
+# kfold: 5
+# ncores: 4
+# nseeds: 10
+cytokine:
+#  - serum_TNFa
+#  - serum_IL.6
+#  - serum_IL.8
+#  - serum_MCP.1
+#  - serum_MIP.1b
+#  - serum_Procalcitonin
+#  - serum_IL.4
+#  - serum_CXCL.9
+#  - serum_CXCL.5
+#  - serum_HGF
+#  - serum_IP.10
+#  - serum_EGF
+#  - serum_IL.22
+  - serum_IL.2Ra
+#  - serum_IL.15
+#  - serum_IL.23
+#  - serum_CCL5.RANTES
+#  - stool_MCP.1
+#  - stool_CXCL.5
+#  - stool_IP.10
+#  - stool_IL.6
+#  - stool_IL.23
+#  - stool_IL.8
+#  - stool_IL.2Ra
+#  - stool_IL.22
+#  - stool_EGF
+#  - stool_MIP.1b
+#  - stool_TNFa
+#  - stool_IL.15
+#  - stool_HGF
+#  - stool_Procalcitonin
+#  - stool_IL.4
+#  - stool_CCL5.RANTES
