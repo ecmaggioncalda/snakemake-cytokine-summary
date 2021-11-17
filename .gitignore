@@ -37,3 +37,14 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+
+#Ignore folders
+data/
+results/
+figures/
+
+#Ignore Rproject
+snakemake-cytokine-summary.Rproj
+
+#Random files
+._*
